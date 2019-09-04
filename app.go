@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 
 	// 01 test
@@ -38,9 +36,13 @@ func main() {
 	// fmt.Println(LongestCommonPrefix(strs))
 
 	// 25 test
-	fmt.Println(RemoveDuplicates([]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}))
+	// fmt.Println(RemoveDuplicates([]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}))
 
 	// 70 test
 	// fmt.Println(ClimbingStairs(4))
+
+	// 80 test
+	a, b := []int{2,0}, []int{1}
+	MergeSortedArray(a, 1, b, 1)
 
 }

@@ -1,5 +1,6 @@
 package main
 
+// PalindromeNumber palindrome number
 func PalindromeNumber(x int) bool {
 
 	// 负数不可能是回文数

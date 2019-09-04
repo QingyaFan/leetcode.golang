@@ -1,5 +1,6 @@
 package main
 
+// ClimbingStairs climb stairs
 func ClimbingStairs(n int) int {
 
 	if n <= 3 {

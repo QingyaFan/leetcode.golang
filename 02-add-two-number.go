@@ -6,7 +6,7 @@ type ListNode struct {
 }
 
 /**
- * 链表的遍历
+ * AddTwoNumber 链表的遍历
  * 两个链表长度不一样
  * 某一位满十进位
  */

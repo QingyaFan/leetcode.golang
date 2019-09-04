@@ -2,6 +2,7 @@ package main
 
 import "strings"
 
+// LongestCommonPrefix get longest common prefix
 func LongestCommonPrefix(strs []string) string {
 
 	if len(strs) == 0 {

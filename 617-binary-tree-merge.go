@@ -8,13 +8,13 @@ package main
  *     Right *TreeNode
  * }
  */
-type TreeNode struct {
+type treeNode struct {
 	Val   int
-	Left  *TreeNode
-	Right *TreeNode
+	Left  *treeNode
+	Right *treeNode
 }
 
-func mergeTrees(t1 *TreeNode, t2 *TreeNode) *TreeNode {
+func mergeTrees(t1 *treeNode, t2 *treeNode) *treeNode {
 	if t1 == nil {
 		return t2
 	}

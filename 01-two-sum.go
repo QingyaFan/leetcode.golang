@@ -1,5 +1,7 @@
 package main
 
+// TwoSum find sum of number is target in nums
+// and return its index in nums
 func TwoSum(nums []int, target int) []int {
 	elMap := make(map[int]int)
 	for i := 0; i < len(nums); i++ {
