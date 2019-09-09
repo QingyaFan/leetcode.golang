@@ -13,6 +13,7 @@ func ReverseInteger(x int) int {
 		x /= 10
 	}
 
+	// make sure the val is in range (-MIN, MAX)
 	if res > MAX || res < -MIN {
 		return 0
 	}

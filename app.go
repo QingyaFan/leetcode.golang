@@ -1,5 +1,9 @@
 package main
 
+import (
+	"fmt"
+)
+
 func main() {
 
 	// 01 test
@@ -42,7 +46,12 @@ func main() {
 	// fmt.Println(ClimbingStairs(4))
 
 	// 80 test
-	a, b := []int{2,0}, []int{1}
-	MergeSortedArray(a, 1, b, 1)
+	// a, b := []int{2,0}, []int{1}
+	// MergeSortedArray(a, 1, b, 1)
+
+	// 344 reverse string TODO:
+	// a := []byte{'h','e','l','l','o'}
+	// ReverseString(a)
+	// fmt.Printf("%s\n", a)
 
 }
