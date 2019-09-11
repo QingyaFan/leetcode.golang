@@ -1,5 +1,6 @@
 package main
 
+// ListNode list node struct
 type ListNode struct {
 	Val  int
 	Next *ListNode
