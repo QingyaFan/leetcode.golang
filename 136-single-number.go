@@ -2,7 +2,7 @@ package main
 
 // SingleNumber find the number 
 // that appear only once in the array
-// TODO:
+// TODO: add benchmark compare
 func SingleNumber(nums []int) int {
 	length := len(nums)
 	hashtable := make(map[int]int)
