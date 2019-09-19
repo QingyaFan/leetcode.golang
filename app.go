@@ -50,14 +50,23 @@ func main() {
 	// MergeSortedArray(a, 1, b, 1)
 
 	// 136 single number
-	nums := []int{4,1,2,1,2}
-	test := SingleNumber2(nums)
-	fmt.Println(test)
+	// nums := []int{4,1,2,1,2}
+	// test := SingleNumber2(nums)
+	// fmt.Println(test)
 
 	// 189 rotate array
 	// a := []int{0, 2, 4, 5}
 	// RotateArray(a, 2)
 	// fmt.Println(a)
+
+	// 217 contains duplicate
+	// a := []int{1,2,3,1}
+	// fmt.Println(containsDuplicate(a))
+
+	// 218 contains nearby duplicate
+	a := []int{99,99}
+	k := 2
+	fmt.Println(containsNearbyDuplicate(a, k))
 
 	// 344 reverse string TODO:
 	// a := []byte{'h','e','l','l','o'}
