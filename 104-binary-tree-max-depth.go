@@ -1,14 +1,12 @@
 package main
 
-/**
- * Definition for a binary tree node.
- * type TreeNode struct {
- *     Val int
- *     Left *TreeNode
- *     Right *TreeNode
- * }
- */
-func maxDepth(root *TreeNode) int {
+type treeNode struct {
+	Val int
+	Left *treeNode
+	Right *treeNode
+}
+
+func maxDepth(root *treeNode) int {
 
 	if root.Left == nil && root.Right == nil {
 		return 1
