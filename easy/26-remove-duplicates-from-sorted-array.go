@@ -1,4 +1,4 @@
-package main
+package easy
 
 // RemoveDuplicates remove duplicates from a array
 func RemoveDuplicates(nums []int) int {

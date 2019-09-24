@@ -1,4 +1,4 @@
-package main
+package easy
 
 func minDepth(root *treeNode) int {
 	if root == nil {

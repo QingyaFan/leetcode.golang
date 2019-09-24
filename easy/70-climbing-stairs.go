@@ -1,4 +1,4 @@
-package main
+package easy
 
 // ClimbingStairs climb stairs
 func ClimbingStairs(n int) int {

@@ -1,4 +1,4 @@
-package main
+package easy
 
 func reverse(a []int) {
 	for i, j := 0, len(a) - 1; i < j; i, j = i + 1, j - 1 {

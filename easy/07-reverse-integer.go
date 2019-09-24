@@ -1,4 +1,4 @@
-package main
+package easy
 
 // ReverseInteger rever integer
 func ReverseInteger(x int) int {

@@ -1,4 +1,4 @@
-package main
+package easy
 
 // PalindromeNumber palindrome number
 func PalindromeNumber(x int) bool {

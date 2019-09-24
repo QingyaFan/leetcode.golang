@@ -1,4 +1,4 @@
-package main
+package easy
 
 // containsDuplicate given a int array
 // return if there are repeat nums

@@ -1,4 +1,4 @@
-package main
+package easy
 
 // SingleNumber find the number 
 // that appear only once in the array

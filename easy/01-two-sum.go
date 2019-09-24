@@ -1,4 +1,4 @@
-package main
+package easy
 
 // TwoSum find sum of number is target in nums
 // and return its index in nums

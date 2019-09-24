@@ -1,4 +1,4 @@
-package main
+package easy
 
 type treeNode struct {
 	Val int

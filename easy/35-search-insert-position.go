@@ -1,4 +1,4 @@
-package main
+package easy
 
 // searchInsertPosition common implementation O(n)
 func searchInsertPosition(nums []int, target int) int {

@@ -1,4 +1,4 @@
-package main
+package easy
 
 func containsNearbyDuplicate(nums []int, k int) bool {
 	numsLen := len(nums)

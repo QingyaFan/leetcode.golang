@@ -1,4 +1,4 @@
-package main
+package easy
 
 // RomanToInteger roman char to integer
 func RomanToInteger() int {

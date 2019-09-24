@@ -1,4 +1,4 @@
-package main
+package easy
 
 // removeElement 注意边界条件
 func removeElement(nums []int, val int) int {

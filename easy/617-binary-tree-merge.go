@@ -1,4 +1,4 @@
-package main
+package easy
 
 func mergeTrees(t1 *treeNode, t2 *treeNode) *treeNode {
 	if t1 == nil {

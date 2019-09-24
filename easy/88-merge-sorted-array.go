@@ -1,4 +1,4 @@
-package main
+package easy
 
 // MergeSortedArray merge two sorted int array to one
 func MergeSortedArray(nums1 []int, m int, nums2 []int, n int) {
