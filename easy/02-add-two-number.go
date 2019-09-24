@@ -1,16 +1,8 @@
 package easy
 
-// ListNode list node struct
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
-/**
- * AddTwoNumber 链表的遍历
- * 两个链表长度不一样
- * 某一位满十进位
- */
+// AddTwoNumber 链表的遍历
+// 两个链表长度不一样
+// 某一位满十进位
 func AddTwoNumber(l1 *ListNode, l2 *ListNode) *ListNode {
 
 	l3Head := &ListNode{0, nil}
