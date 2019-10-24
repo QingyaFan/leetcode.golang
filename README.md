@@ -1,5 +1,8 @@
 # leetcode.golang
 
-Implement of leetcode exercise using golang.
+使用Golang实现LeetCode的算法题。
 
-TODO: 04 median value
+// TODO:
+// easy: 107/429/637
+// medium: 61/80/82/146
+// hard: 4
