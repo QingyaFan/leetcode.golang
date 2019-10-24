@@ -29,14 +29,25 @@ func TestMaxSubArray(t *testing.T) {
 	fmt.Println(maxSubArray(nums))
 }
 
-func TestDeleteNode(t *testing.T) {
-	list := []ListNode{}
-	node3 := ListNode{3, nil}
-	node2 := ListNode{2, &node3}
-	node1 := ListNode{1, &node2}
-	append(list, ListNode{0, &node1})
+// func TestDeleteNode(t *testing.T) {
+// 	list := []ListNode{}
+// 	node3 := ListNode{3, nil}
+// 	node2 := ListNode{2, &node3}
+// 	node1 := ListNode{1, &node2}
+// 	append(list, ListNode{0, &node1})
 
-	deleteNode(&node2)
+// 	deleteNode(&node2)
 
-	// Print the result TODO:
+// 	// Print the result TODO:
+// }
+
+func TestReverseStringII(t *testing.T) {
+	s := "abcdefg"
+	k := 2
+	fmt.Println(reverseStr(s, k))
+}
+
+func TestReverseWords(t *testing.T) {
+	s := "Let's take LeetCode contest"
+	fmt.Println(reverseWords(s))
 }

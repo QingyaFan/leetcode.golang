@@ -1,4 +1,4 @@
-package easy
+package medium
 
 // AddTwoNumber 链表的遍历
 // 两个链表长度不一样

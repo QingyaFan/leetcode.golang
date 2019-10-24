@@ -1,4 +1,4 @@
-package easy
+package medium
 
 func longestUniqueString(str string) int {
 
