@@ -8,8 +8,8 @@ package medium
 // 	快排排序 O(nlogn),O(logn)
 // 	归并排序 O(nlogn),O(1)
 //
-// 空间复杂度是常数，只剩下堆排序和归并排序
-// 待排序是链表，只有归并排序了
+// 空间复杂度是常数，满足条件的是堆排序和归并排序
+// 堆排序只能用于数组，只剩归并排序
 func sortList(head *ListNode) *ListNode {
 	var dummyHead ListNode
 	dummyHead.Next = head
@@ -28,9 +28,9 @@ func sortList(head *ListNode) *ListNode {
 		tail := &dummyHead
 
 		for cur != nil {
-			left := cur
-			right := cut(left, size)
-			cur = cut(right, size)
+			left := cur              // 现在left指向了cur且长度size的链表
+			right := cut(left, size) // 现在right指向了curlNextNext长度为size的链表
+			cur = cut(right, size)   // 迭代cur到剩下的链表头
 			tail.Next = merge(left, right)
 			for tail.Next != nil {
 				tail = tail.Next
