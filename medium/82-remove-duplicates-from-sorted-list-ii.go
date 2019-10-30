@@ -2,7 +2,7 @@ package medium
 
 // deleteDuplicates 给定一个排序链表，
 // 删除所有含有重复数字的节点，只保留原始链表中没有重复出现的数字
-// 双指针法
+// 双指针法 TODO: [1,1]不能通过测试，[1,2,2]不能通过测试
 func deleteDuplicates(head *ListNode) *ListNode {
 
 	if head == nil || head.Next == nil {

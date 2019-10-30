@@ -11,17 +11,17 @@ package medium
 type LRUCache struct {
 }
 
-// Constructor constructor
-func Constructor(capacity int) LRUCache {
+// // Constructor constructor
+// func Constructor(capacity int) LRUCache {
 
-}
+// }
 
-// Get get a value
-func (this *LRUCache) Get(key int) int {
+// // Get get a value
+// func (this *LRUCache) Get(key int) int {
 
-}
+// }
 
-// Put put a key and value in cache
-func (this *LRUCache) Put(key int, value int) {
+// // Put put a key and value in cache
+// func (this *LRUCache) Put(key int, value int) {
 
-}
+// }
