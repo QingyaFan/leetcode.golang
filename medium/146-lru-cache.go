@@ -7,6 +7,8 @@ package medium
  * obj.Put(key,value);
  */
 
+// TODO:
+
 // LRUCache struct
 type LRUCache struct {
 }
